@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/api/webhook/(.*)",
+      "destination": "/api/webhook/[connection]"
+    },
+    {
+      "source": "/api/connections/(.*)/revoke",
+      "destination": "/api/connections/[id]/revoke"
+    },
+    {
+      "source": "/api/connections/(.*)/regenerate-secret",
+      "destination": "/api/connections/[id]/regenerate-secret"
+    },
+    {
+      "source": "/api/connections",
+      "destination": "/api/connections/index"
+    },
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

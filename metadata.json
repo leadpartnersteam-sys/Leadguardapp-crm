@@ -1,0 +1,6 @@
+{
+  "name": "LeadGuard",
+  "description": "Multi-tenant lead capture, deterministic qualification, and organization platform for service businesses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
